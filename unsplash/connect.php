@@ -19,7 +19,7 @@
             $conn->close();
         }
     }else{
-        header("Location: index.html");
+        header("Location: google.com");
         die();
     }
 ?>
