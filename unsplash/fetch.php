@@ -15,8 +15,7 @@
         //     $stmt -> close();
         //     $conn->close();
         // }
-
-        $conn = new mysqli('localhost', 'root', '', 'test');
+        $conn = new mysqli('sql9.freemysqlhosting.net','sql9536274','C8JnzdAdJi','sql9536274');
         // Check connection
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
