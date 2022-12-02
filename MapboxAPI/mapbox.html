@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location</title>
+</head>
+<style>
+table, th, td {
+    border:2px solid black;
+}
+</style>
+<body>
+
+    <div><h1> Rock Climbing </h1>
+        <h2>Welcome to the Mapbox location page</h2>
+       
+     <p>Hello every one,{{ name }}!</p>
+    </div> 
+<table style="width:100%">
+    <tr>
+        <td>id</td>
+        <td>category</td>
+        <td>place_name</td>
+        <td>coordinates</td>
+    </tr>
+
+    <tr>
+        <td>poi.1211180798620</td>
+        <td>outdoors, rock climbing, rock, climbing, sport</td>
+        <td>The Cliffs at Long Island City, 1111 44th Dr, New York, New York 11101, United States</td>
+        <td>[-73.948892, 40.748627]</td>
+    </tr>
+    <tr>
+        <td>poi.309237702161</td>
+        <td>outdoors, rock climbing, rock, climbing, sport</td>
+        <td>Cathedral Ledge, North Conway, New Hampshire 03860, United States</td>
+        <td>[-71.166387, 44.062846]</td>
+    </tr>
+    <tr>
+        <td>poi.335007499622</td>
+        <td>outdoors, rock climbing, rock, climbing, sport</td>
+        <td>Rockville Climbing Center, 200 Whitehead Rd, Trenton, New Jersey 08619, United States</td>
+        <td>[-74.727607, 40.239898]</td>
+    </tr>
+    <tr>
+        <td>poi.343597473345</td>
+        <td>climbing, gym, fitness center, leisure</td>
+        <td>Brooklyn Boulders, 575 Degraw St, New York, New York 11217, United States</td>
+        <td>[-73.984061, 40.679796]</td>
+    </tr>
+    <tr>
+        <td>poi.377957123832</td>
+        <td>climbing, gym, fitness center, leisure</td>
+        <td>Gravity Vault, 1423 Clinton St, Hoboken, New Jersey 07030, United States</td>
+        <td>[-74.030035, 40.754819]</td>
+    </tr>
+    <tr>
+        <td>poi.455266625142</td>
+        <td>outdoors, rock climbing, rock, climbing, sport</td>
+        <td>High Exposure Climbing Gym, 266 Union St, Northvale, New Jersey 07647, United States</td>
+        <td>[-73.93991, 41.012861]
+    </tr>
+    <tr>
+        <td>poi.584115604094</td>
+        <td>outdoors, rock climbing, rock, climbing, sport</td>
+        <td>The Gravity Vault, 37 Kanes Ln, Middletown, New Jersey 07748, United States</td>
+        <td>[-74.08817, 40.386176]
+    </tr>
+    <tr>
+        <td>poi.618475313321</td>
+        <td>climbing, gym, fitness center, leisure</td>
+        <td>U.S. National Whitewater Center, 5000 Whitewater Center Pkwy, Charlotte, North Carolina 28214, United States</td>
+        <td>[-81.005188, 35.272321500000004]
+    </tr>
+    <tr>
+        <td>poi.738734455907</td>
+        <td>climbing, gym, fitness center, leisure</td>
+        <td>Randolph Climbing Center, 3 Middlebury Blvd, Randolph, New Jersey 07869, United States</td>
+        <td>[-74.615017, 40.862786]
+    </tr>
+    <tr>
+        <td>poi.816043824207</td>
+        <td>outdoors, rock climbing, rock, climbing, sport</td>
+        <td>Brooklyn Boulders Queensbridge, 23-10 41st Ave, New York, New York 11101, United States</td>
+        <td>[-73.94001, 40.752649]
+    </tr>
+</table>
+    <script type="text/javascript" 
+    src="{{url_for('static', filename='mapbox.js')}}"></script>
+</body>
+</html>
